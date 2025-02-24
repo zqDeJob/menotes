@@ -9,7 +9,7 @@ export default defineConfig({
   base: '/menotes/', // 部署到github上时访问的根目录
   lastUpdated: true, // 页面上展示最后更新的时间
   head: [
-    ['link', { rel: 'icon',  href: '/favicon.ico' }], // 也是放在/public目录中
+    ['link', { rel: 'icon',  href: '/favicon.png' }], // 也是放在/public目录中
   ],
   themeConfig: {
     nav: [
