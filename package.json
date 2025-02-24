@@ -1,5 +1,4 @@
 {
-  "name": "zq",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,6 +7,6 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "vitepress": "^1.6.3"
+    "vitepress": "latest"
   }
 }

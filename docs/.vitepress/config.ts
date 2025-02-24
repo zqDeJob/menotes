@@ -4,11 +4,13 @@ import { getTools } from './sidebar/getTools';
 
 // refer https://vitepress.dev/reference/site-config for details
 export default defineConfig({
-  lang: 'zh-en',
   title: 'martin 工作随笔',
   description: '记录开发过程中的一些随笔',
-  base: '/notes/',
-
+  base: '/menotes/', // 部署到github上时访问的根目录
+  lastUpdated: true, // 页面上展示最后更新的时间
+  head: [
+    ['link', { rel: 'icon',  href: '/favicon.ico' }], // 也是放在/public目录中
+  ],
   themeConfig: {
     nav: [
       {
@@ -24,7 +26,8 @@ export default defineConfig({
 
       // ...
     ],
-
+    // 配置github地址
+    socialLinks: [{ icon: "github", link: "https://github.com/chaxus/ran" }],
     sidebar: {
       '/notes': {
         base: '/notes/',
