@@ -29,8 +29,8 @@ export default defineConfig({
           { text: '最近计划', link: '/enhance/plan' },
         ],
       },
-      { text: '笔记', link: '/notes/start-index', activeMatch: '/notes' },
-      { text: '工具管理', link: '/tools/start', activeMatch: '/tools' },
+      { text: '笔记', link: '/notes/start', activeMatch: '/notes' },
+      { text: '工具管理', link: '/tools/start-index', activeMatch: '/tools' },
       { text: '有趣的小demo', link: '/demos/start', activeMatch: '/demos' },
 
       // ...
