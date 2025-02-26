@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress';
+import { vitepressDemoPlugin } from 'vitepress-demo-plugin';
 import { getNotes } from './sidebar/getNotes';
 import { getTools } from './sidebar/getTools';
+import { getDemos } from './sidebar/getDemos';
 
 // refer https://vitepress.dev/reference/site-config for details
 export default defineConfig({
@@ -8,6 +10,11 @@ export default defineConfig({
   description: '记录开发过程中的一些随笔',
   base: '/menotes/', // 部署到github上时访问的根目录
   lastUpdated: true, // 页面上展示最后更新的时间
+  markdown: {
+    config(md) {
+      md.use(vitepressDemoPlugin);
+    },
+  },
   head: [
     ['link', { rel: 'icon',  href: '/favicon.png' }], // 也是放在/public目录中
   ],
@@ -23,6 +30,7 @@ export default defineConfig({
       },
       { text: '笔记', link: '/notes/start', activeMatch: '/notes' },
       { text: '工具', link: '/tools/start', activeMatch: '/tools' },
+      { text: '有趣的小demo', link: '/demos/start', activeMatch: '/demos' },
 
       // ...
     ],
@@ -36,6 +44,10 @@ export default defineConfig({
       '/tools': {
         base: '/tools/',
         items: getTools(),
+      },
+      '/demos': {
+        base: '/demos/',
+        items: getDemos(),
       },
     },
 
