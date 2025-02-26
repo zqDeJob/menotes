@@ -25,29 +25,13 @@ export const getNotes = function () {
       ],
     },
     {
-      text: 'nodeJs 相关',
-      items: [
-        {
-          text: 'node 小demo',
-          base: '/notes/node-demo-',
-          items: [
-            { text: '读取文件夹下的所有内容并存到一个文件', link: 'mergefile' },
-          ],
-        },
-      ],
-    },
-    {
       text: 'JavaScript 相关',
       base: '/notes/js-',
       items: [
         {
           text: '利用blob 加密防下载',
           link: 'blob',
-        },
-        {
-          text: 'base64 和blob 上传与互换',
-          link: 'base64',
-        },
+        }
       ],
     },
     {

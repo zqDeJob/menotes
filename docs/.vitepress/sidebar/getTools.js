@@ -1,15 +1,18 @@
 export const getTools = function () {
   return [
     {
-      text: '简介',
-      items: [{ text: '为什么整理？', link: 'start' }],
+      text: '常用工具介绍',
+      base: '/tools/start-',
+      items: [
+        { text: '网站资源', link: 'index' },
+        { text: '浏览器插件', link: 'browser-plugins' },
+      ],
     },
     {
       text: 'JavaScript',
       base: '/tools/js-',
       items: [
         { text: '表单验证集合', link: 'form' },
-        { text: 'bb', link: 'bbb' },
       ],
     },
     {
