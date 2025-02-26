@@ -53,5 +53,13 @@ export const getNotes = function () {
         },
       ],
     },
+    {
+      text: '探索',
+      base: '/notes/explore-',
+      items:  [
+        { text: '安全检测工具awvs', link: 'awvs' },
+        { text: 'vue2 前端组件文档选用',link: 'components-book'}
+      ],
+    }
   ];
 };

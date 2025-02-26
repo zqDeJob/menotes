@@ -22,11 +22,6 @@ export const getTools = function () {
         { text: '工具1', link: 'hhh' },
         { text: '工具2', link: 'fff' },
       ],
-    },
-    {
-      text: '其他',
-      base: '/tools/other-',
-      items: [{ text: '安全检测工具awvs', link: 'awvs' }],
-    },
+    }
   ];
 };
