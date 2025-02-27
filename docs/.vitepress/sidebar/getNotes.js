@@ -25,32 +25,14 @@ export const getNotes = function () {
       ],
     },
     {
-      text: 'JavaScript 相关',
-      base: '/notes/js-',
-      items: [
-        {
-          text: '利用blob 加密防下载',
-          link: 'blob',
-        }
-      ],
-    },
-    {
       text: '遇到的小问题整理',
       base: '/notes/faq-',
       items: [
         { text: '生产环境如何调试VUE代码？', link: 'runvue' },
-        {
-          text: 'linux离线环境如何更新vscode版本 ？',
-          link: 'unvscode',
-        },
-        {
-          text: 'linux离线环境如何添加全局依赖 ？',
-          link: 'offline',
-        },
-        {
-          text: 'linux离线环境如何安装node ？',
-          link: 'offnode',
-        },
+        { text: 'linux离线环境如何更新vscode版本 ？', link: 'unvscode',  },
+        { text: 'linux离线环境如何添加全局依赖 ？', link: 'offline', },
+        { text: 'linux离线环境如何安装node ？', link: 'offnode', },
+        { text: 'tomcat 怎么配置gzip ？',link: 'gzip-tomcat'}
       ],
     },
     {
@@ -59,7 +41,6 @@ export const getNotes = function () {
       items:  [
         { text: '安全检测工具awvs', link: 'awvs' },
         { text: 'vue2 前端组件文档选用',link: 'components-book'},
-        { text: 'tomcat 怎么配置gzip',link: 'gzip-tomcat'}
       ],
     }
   ];

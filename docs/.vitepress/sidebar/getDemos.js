@@ -25,6 +25,10 @@ export const getDemos = function () {
           {
             text: 'base64 和blob 上传与互换',
             link: 'base64',
+          },
+          {
+            text: '利用blob 加密防下载',
+            link: 'blob',
           }
         ]
       },
