@@ -36,7 +36,7 @@ export default defineConfig({
       // ...
     ],
     // 配置github地址
-    socialLinks: [{ icon: "github", link: "https://github.com/chaxus/ran" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/zqDeJob/menotes" }],
     sidebar: {
       'enhance':{
         base: '/enhance/',
