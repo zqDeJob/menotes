@@ -27,6 +27,7 @@ export const getNotes = function () {
     {
       text: '遇到的小问题整理',
       base: '/notes/faq-',
+      collapsed: true,
       items: [
         { text: '生产环境如何调试VUE代码？', link: 'runvue' },
         { text: 'linux离线环境如何更新vscode版本 ？', link: 'unvscode'},
@@ -38,6 +39,7 @@ export const getNotes = function () {
     {
       text: '探索',
       base: '/notes/explore-',
+      collapsed: false,
       items:  [
         { text: '安全检测工具awvs', link: 'awvs' },
         { text: 'vue2 前端组件文档选用',link: 'components-book'},
