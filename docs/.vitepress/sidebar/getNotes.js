@@ -58,7 +58,8 @@ export const getNotes = function () {
       base: '/notes/explore-',
       items:  [
         { text: '安全检测工具awvs', link: 'awvs' },
-        { text: 'vue2 前端组件文档选用',link: 'components-book'}
+        { text: 'vue2 前端组件文档选用',link: 'components-book'},
+        { text: 'tomcat 怎么配置gzip',link: 'gzip-tomcat'}
       ],
     }
   ];
