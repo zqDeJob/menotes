@@ -52,7 +52,7 @@ noCompressionUserAgents="gozilla, traviata"
 
 ## 结果如下：
 
-![图片](https://github.com/zqDeJob/menotes/blob/main/sources/notes/explore/img1.png)
+![图片](/notes/explore/img1.png)
 
 ## 重启tomcat服务
 
@@ -66,12 +66,12 @@ noCompressionUserAgents="gozilla, traviata"
 检查gzip是否生效
 去浏览器查看，请求头中带有gzip的就表示开启成功
 
-![图片](https://github.com/zqDeJob/menotes/blob/main/sources/notes/explore/img2.png)
+![图片](/notes/explore/img2.png)
 
 
 或者更直接的可以看这里
 
-![图片](https://github.com/zqDeJob/menotes/blob/main/sources/notes/explore/img3.png)
+![图片](/notes/explore/img3.png)
 
 ## 遇到的问题
 
