@@ -29,9 +29,9 @@ export const getNotes = function () {
       base: '/notes/faq-',
       items: [
         { text: '生产环境如何调试VUE代码？', link: 'runvue' },
-        { text: 'linux离线环境如何更新vscode版本 ？', link: 'unvscode',  },
-        { text: 'linux离线环境如何添加全局依赖 ？', link: 'offline', },
-        { text: 'linux离线环境如何安装node ？', link: 'offnode', },
+        { text: 'linux离线环境如何更新vscode版本 ？', link: 'unvscode'},
+        { text: 'linux离线环境如何添加全局依赖 ？', link: 'offline' },
+        { text: 'linux离线环境如何安装node ？', link: 'offnode' },
         { text: 'tomcat 怎么配置gzip ？',link: 'gzip-tomcat'}
       ],
     },
