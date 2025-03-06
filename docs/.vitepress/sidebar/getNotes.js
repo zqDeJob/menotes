@@ -43,6 +43,7 @@ export const getNotes = function () {
       items:  [
         { text: '安全检测工具awvs', link: 'awvs' },
         { text: 'vue2 前端组件文档选用',link: 'components-book'},
+        { text: 'grafana 的介绍与使用',link: 'grafana'},
       ],
     }
   ];
