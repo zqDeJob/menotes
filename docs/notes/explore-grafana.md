@@ -21,6 +21,7 @@ github 仓库地址：[https://github.com/grafana/grafana](https://github.com/gr
 
 [适用于 Windows 环境的 Grafana 设置指南](https://grafana.com/blog/2021/03/03/how-to-set-up-a-grafana-development-environment-on-a-windows-pc-using-wsl/)
 [开发人员指南](https://github.com/grafana/grafana/blob/v11.5.x/contribute/developer-guide.md)
+[二次开发流程](https://blog.csdn.net/kammingo/article/details/114835687)
 
 :::
 
@@ -110,7 +111,9 @@ grafana
 
 ::: details `yarn start` 运行提示错误 `Command failed: "webpack" "--config" "scripts/webpack/webpack.dev.js" "--watch"`
 
-
+issues 
+- https://github.com/grafana/grafana/issues/94292
+- https://github.com/grafana/grafana/issues/85445
 
 :::
 
